@@ -177,7 +177,7 @@ letter-spacing: 1.08px;
   background: #2f303a;
   text-align: center;
   box-sizing: border-box;
-  padding: 200px 350px 130px 450px;
+  padding: 200px 350px 100px 450px;
   background-image:url("../images/sectionone-images.jpg");
   
   
@@ -342,4 +342,20 @@ address {
   width: 516px;
   margin: auto;
   column-gap: 8px;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+ box-sizing: border-box;
+ 
+
+}
+.feature{
+  background-color: #F5F4FA;
+  padding: 25px 100px;
+  border-radius: 4px;
+}
+.feature-text h3{
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
