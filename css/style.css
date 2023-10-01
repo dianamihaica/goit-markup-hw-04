@@ -177,7 +177,8 @@ letter-spacing: 1.08px;
   background: #2f303a;
   text-align: center;
   box-sizing: border-box;
-  padding: 200px 450px 250px 450px;
+  padding: 200px 350px 130px 450px;
+  background-image:url("../images/sectionone-images.jpg");
   
   
 }
@@ -189,6 +190,7 @@ letter-spacing: 1.08px;
   top: 430px;
   left: 700px;
   margin-top: 20px;
+  margin: 0px;;
 
 }
 .button-request:hover {
