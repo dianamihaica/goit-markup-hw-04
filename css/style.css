@@ -306,7 +306,7 @@ address {
   justify-content: center;
   gap:30px;
   box-sizing: border-box;
-  padding: 150px;
+  padding: 200px;
   margin:0px;
 }
 .info-container{
@@ -403,7 +403,7 @@ address {
 }
 .regular a{
   width: 64px;
-  height: 60px;
+  height: 64px;
   flex-shrink: 0;
 
 }
