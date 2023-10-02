@@ -399,8 +399,18 @@ address {
   width: 106px;
   height: 60px;
   flex-shrink: 0;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  padding-top:50px;
+  padding-bottom:200px;
+}
+.regular-customer{
+  border: 1px solid #AFB1B8;
+  border-radius: 8px;
+  list-style: none;
+  width: 170px;
+  height: 92px;
+  flex-shrink: 0;
+  
+  
 }
 .footer-style{
   width: 100%;
