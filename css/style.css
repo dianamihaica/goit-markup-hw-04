@@ -460,3 +460,14 @@ address {
 .footer-svg a:hover {
   background-color: #2196F3;
 }
+.icon-info{
+  width: 16px;
+  height: 11.996px;
+  flex-shrink: 0;
+}
+.style-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4px;
+}
