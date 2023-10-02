@@ -208,6 +208,13 @@ ul {
   list-style-type: none;
   color:#fff;
 }
+ul{
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
 .contact {
   color: #212121;
   font: "Roboto";
@@ -291,6 +298,7 @@ address {
   margin-top: 50px;
   
 }
+
 .section-fourth{
   background-color: #F5F4FA;
   display: flex;
@@ -310,8 +318,13 @@ address {
   margin: auto;
   width: 1200px;
   display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
   column-gap: 30px;
   
+}
+.portofolio-card:hover{
+  background-color: #EEEEEE;
 }
 .portofolio{
   margin: auto;
@@ -324,6 +337,9 @@ address {
 .portofolio-card{
   width: 370px;
   background-color: #fff;
+  border: 1px solid #AFB1B8;
+  list-style: none;
+  margin-bottom: 20px;
 }
 .portofolio-text{
   display: flex;
@@ -363,45 +379,39 @@ address {
 }
 
 .social-networks{
- display: flex;
- flex-direction: row;
+  display: flex;
+  justify-content: center;
   width: 20px;
   height: 20px;
-  padding: 18px;
   align-items: center;
   fill:#fff;
-  
+  margin-left:  30px;
   
 }
-/* .social-networks a{
-  align-items: center;
-  padding: 12px;
-  fill:#AFB1B8;
-} */
-.social-networks:hover{
-  padding: 20px 20px;
+.social a:hover{
+  padding: 10px;
   align-items: center;
   background-color: #2196F3;
   fill:#FFFFFF;
   border-radius: 50%;
-  /* width: 44px; */
+  
 }
 .team{
   background-color: #fff;
 }
-.social{
-  /* border-radius: 50%; */
+.regular a{
+  width: 64px;
+  height: 60px;
+  flex-shrink: 0;
+
 }
 .regular{
   display: flex;
-  justify-content: space-between;
+ justify-content: center;
+ gap:60px;
   align-items: center;
-  column-gap: 30px;
   border-radius: 4px;
-  width: 106px;
-  height: 60px;
   flex-shrink: 0;
-  padding-left:350px;
   padding-top:50px;
   padding-bottom:200px;
 }
