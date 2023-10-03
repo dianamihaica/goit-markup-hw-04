@@ -424,19 +424,19 @@ address {
   border-radius: 4px;
   flex-shrink: 0;
   padding-top:50px;
-  padding-bottom:100px;
+  padding-bottom:80px;
 }
 .regular-customer{
   border: 1px solid #AFB1B8;
   border-radius: 5px;
   list-style: none;
   width: 170px;
-  height: 92px;
+  height: 80px;
   flex-shrink: 0;
   padding: 5px;
   
 }
-.regular a:hover{
+.regular-hover:hover{
   background-color: #EEEEEE;
 }
 .footer-style{
