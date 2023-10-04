@@ -237,9 +237,7 @@ address {
   line-height: normal;
   letter-spacing: 0.42px;
   box-sizing: border-box;
-  padding: 50px;
-  margin:0px;
-
+  
 }
 .info {
   color: #757575;
@@ -251,6 +249,9 @@ address {
   letter-spacing: 0.28px;
   justify-content:space-between;
   margin-right: 100px;
+}
+.style-info a:hover{
+  fill: #2196F3;
 }
 
 /* .global-header{
@@ -421,12 +422,15 @@ address {
   background-color: #fff;
 }
 .regular a{
+  
   width: 64px;
   height: 64px;
   flex-shrink: 0;
 
 }
+
 .regular{
+  fill:#AFB1B8;
   display: flex;
  justify-content: center;
  gap:60px;
@@ -447,26 +451,40 @@ address {
   
 }
 .regular-hover:hover{
-  background-color: #EEEEEE;
+  fill: #2196F3;
 }
 .footer-style{
-  width: 100%;
-  padding: 60px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  margin: 0;
 }
 .footer-container{
   display: flex;
   flex-direction: row;
+   margin-top: 40px;
 }
 .footer-section2{
   display: flex;
   flex-direction: column;
   padding-left: 94px;
+  padding-top: 40px;
+  padding-left:150px ;
 }
-.footer-section1{
+.footer-container .footer-section1{
+  display: flex;
+  padding-left: 15px;
+  flex-direction: column;
+  margin-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+/* .footer-details {
   display: flex;
   flex-direction: column;
-  margin-left: 10vw;
-}
+  row-gap: 12px;
+  padding-bottom: 60px;
+} */
 .footer-section2 h3{
   color:#fff;
   font-family: "Roboto";
@@ -477,18 +495,18 @@ address {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  width: 79px;
+
 }
 .footer-section2 .footer-svg{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  list-style-type: none;
   column-gap: 10px;
-  margin: 0px;
-  padding: 0px;
 }
 .footer-svg a{
-  padding: 12px 12px;
+  padding: 12px;
+  display: flex;
   align-items:center ;
   fill:#fff;
   background-color: #FFFFFF1A;
@@ -498,6 +516,7 @@ address {
   background-color: #2196F3;
 }
 .icon-info{
+  fill:#757575;
   width: 16px;
   height: 11.996px;
   flex-shrink: 0;
@@ -507,4 +526,7 @@ address {
   justify-content: space-between;
   align-items: center;
   column-gap: 4px;
+}
+.icon-info:hover{
+  fill: #2196F3;
 }
