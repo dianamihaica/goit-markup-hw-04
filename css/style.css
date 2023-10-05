@@ -254,10 +254,6 @@ address {
   fill: #2196F3;
 }
 
-/* .global-header{
-    width: 1600px;
-    background-color: #ECECEC;;
-} */
 .current {
   color: var(--highlight-color);
 }
@@ -290,6 +286,7 @@ address {
 }
 .section-second{
   display: flex;
+  justify-content: center
   align-items: center;
   gap:30px;
   margin-left:215px;
@@ -386,6 +383,8 @@ address {
   margin-top: 30px;
 }
 .social a{
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 12px;
   fill:#AFB1B8;
@@ -483,6 +482,7 @@ address {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+  margin-top: 20px;
 }
 .footer-section2 h3{
   color:#fff;
@@ -528,4 +528,11 @@ address {
 }
 .icon-info:hover{
   fill: #2196F3;
+}
+.footer-info{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
 }
