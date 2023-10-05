@@ -287,7 +287,6 @@ address {
 .section-second{
   display: flex;
   justify-content: center;
-  align-items: center;
   gap:30px;
   margin-left:215px;
   margin-right: 215px;
@@ -467,7 +466,7 @@ address {
   display: flex;
   flex-direction: column;
   padding-left: 94px;
-  padding-top:20px;
+  padding-top:40px;
   padding-left:150px ;
 }
 .footer-container .footer-section1{
