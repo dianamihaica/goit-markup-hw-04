@@ -286,12 +286,12 @@ address {
 }
 .section-second{
   display: flex;
-  justify-content: center
+  justify-content: center;
   align-items: center;
   gap:30px;
   margin-left:215px;
   margin-right: 215px;
-  margin-top: 150px;
+  margin-top:150px;
 }
 .section-third{
   justify-content: center;
